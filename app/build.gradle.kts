@@ -57,6 +57,7 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.kotlin.serialization)
     implementation(libs.androidx.navigation)
+    implementation(libs.kotlin.coroutines)
 
     /* Test Deps */
     testImplementation(libs.junit)
