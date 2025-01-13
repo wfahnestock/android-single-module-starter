@@ -12,3 +12,6 @@ This project includes the latest version of the following libraries:
 - Kotlin Serialization
 - Kotlin Coroutines
 - KSP (Kotlin Symbol Processing, replaces Kapt)
+
+# Current Build Status
+![Build Status](https://github.com/wfahnestock/android-single-module-starter/actions/workflows/android.yml/badge.svg)
