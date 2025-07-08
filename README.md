@@ -1,8 +1,8 @@
 # Jetpack Compose Android Single Module Starter
-This is a single module and single activity starter project/template for an Android project using Jetpack Compose.
+This is a single module and single activity starter template for an Android project which uses Jetpack Compose.
 
 # Why?
-I got tired of creating a new project and setting up the same boilerplate over and over again. So I decided to create a starter project that I can use as a template for my future projects.
+To streamline my development and eliminate the repetitive project setup, I created this starter template for Jetpack Compose projects. It serves as a reusable foundation for future projects, allowing for faster and more consistent project initialization. Simply clone the repo, change the package name, and you're off to the races with your new project!
 
 # What's included?
 This project includes the latest version of the following libraries:
@@ -12,15 +12,15 @@ This project includes the latest version of the following libraries:
 - Kotlin Serialization
 - Kotlin Coroutines
 - KSP (Kotlin Symbol Processing, replaces Kapt)
-- Starter custom color theme, available via `compositionLocal`. For example:
+- Starter custom theme, available globally via `compositionLocal`. For example:
 
 ```kt
 Text(
-  color = LocalAppColors.current.onSurface
-  ...
+  color = LocalAppColors.current.onSurface,
+  text = "Hello, World!"
 )
 ```
-The provided colors are the same as Material3, but can be customized via [CustomColorsPalette.kt](https://github.com/wfahnestock/android-single-module-starter/blob/main/app/src/main/java/com/changeme/androidsinglemodulestarter/ui/theme/CustomColorsPalette.kt)
+The provided colors were made with the [Material3 Theme Builder](https://material-foundation.github.io/material-theme-builder/) with a Source color of #177BBD, but can be customized via [CustomColorsPalette.kt](https://github.com/wfahnestock/android-single-module-starter/blob/main/app/src/main/java/com/changeme/androidsinglemodulestarter/ui/theme/CustomColorsPalette.kt)
 
 # Current Build Status
 ![Build Status](https://github.com/wfahnestock/android-single-module-starter/actions/workflows/android.yml/badge.svg)
