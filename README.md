@@ -20,7 +20,7 @@ Text(
   text = "Hello, World!"
 )
 ```
-The provided colors were made with the <a href="https://material-foundation.github.io/material-theme-builder/">Material3 Theme Builder</a> with a Source color of #177BBD, but can be customized via [CustomColorsPalette.kt](https://github.com/wfahnestock/android-single-module-starter/blob/main/app/src/main/java/com/changeme/androidsinglemodulestarter/ui/theme/CustomColorsPalette.kt)
+The provided colors were made with the <a href="https://material-foundation.github.io/material-theme-builder/" target="_blank">Material3 Theme Builder</a> with a Source color of #177BBD, but can be customized via [CustomColorsPalette.kt](https://github.com/wfahnestock/android-single-module-starter/blob/main/app/src/main/java/com/changeme/androidsinglemodulestarter/ui/theme/CustomColorsPalette.kt)
 
 # Current Build Status
 ![Build Status](https://github.com/wfahnestock/android-single-module-starter/actions/workflows/android.yml/badge.svg)
