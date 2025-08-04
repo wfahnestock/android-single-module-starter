@@ -8,7 +8,7 @@ To streamline my development and eliminate the repetitive project setup, I creat
 This project includes the latest version of the following libraries:
 
 - Jetpack Compose
-- Jetpack Navigation
+- Jetpack Navigation (will be replaced with Navigation 3 when it's out of Alpha/Beta)
 - Kotlin Serialization
 - Kotlin Coroutines
 - KSP (Kotlin Symbol Processing, replaces Kapt)
