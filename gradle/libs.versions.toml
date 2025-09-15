@@ -1,6 +1,6 @@
 [versions]
 agp = "8.13.0"
-kotlin = "2.2.10"
+kotlin = "2.2.20"
 coroutines = "1.10.2"
 serialization = "1.9.0"
 coreKtx = "1.17.0"
@@ -11,7 +11,7 @@ lifecycleRuntimeKtx = "2.9.3"
 activityCompose = "1.10.1"
 composeBom = "2025.08.01"
 navigationCompose = "2.9.4"
-ksp = "2.2.10-2.0.2"
+ksp = "2.2.20-2.0.3"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
