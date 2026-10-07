@@ -11,13 +11,13 @@ plugins {
 android {
     // TODO: Change namespace to your app's namespace
     namespace = "com.changeme.androidsinglemodulestarter"
-    compileSdk = 36
+    compileSdk = 37
 
     defaultConfig {
         // TODO: Change applicationId to your app's package name
         applicationId = "com.changeme.androidsinglemodulestarter"
         minSdk = 30
-        targetSdk = 36
+        targetSdk = 37
         versionCode = 1
         versionName = "1.0.0"
 
